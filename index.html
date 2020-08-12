@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+    <script src="./js/scripts.js"></script>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+<head>
+    <meta charset="UTF-8 ">
+    <meta name="viewport " content="width=device-width, initial-scale=1.0 ">
+    <meta http-equiv="X-UA-Compatible " content="ie=edge ">
+    <title>Purine103</title>
+
+    <!-- 引用 Bootstrap 的 CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- 引用 Google 中文字型 -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC|Noto+Serif+TC&display=swap" rel="stylesheet">
+
+    <!-- 引用 font-awesome ICON 的 CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+    <!-- 引用自己定義的CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    
+</head>
+
+<body>
+    
+    <!--導覽列 -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark bg-success fixed-top">
+        <!--  這是 LOGO 文字或圖片  -->
+        <a class="navbar-brand" href="index.html">Purine103</a>
+        <!--  這是手機版時右上角呈現的選單按鈕, 注意:data-target表示按下這個按鈕時要控制展開收合的物件ID名稱  -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- 這是按鈕上呈現的icon圖案 -->
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- navbar-collapse表示這個框架區塊是可收展開的, 注意:id名稱必須跟button中的data-target一樣 -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <!-- 這是一組靠左側的選單 -->
+            <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" onclick="openNav()">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <!--下拉式選單-->
+            <ul class="nav">
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <ul>
+                        <li ><a href="cost.html"> About</a></li>
+                        <li><a href="noodles.html"> project1</a></li>
+                        <li><a href="rice.html"> project2</a></li>
+                        <li><a href="soup.html"> project3</a></li>
+                        <li><a href="test.html">project4</a></li>  
+                        </ul>      
+                </div>
+            </ul> 
+            <li class="nav-item">
+                <a class="nav-link" href="#">Introduction</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Cat❤️</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Podoh🍇</a>
+                    <a class="dropdown-item" href="#">Lemon🍋</a>
+                    <a class="dropdown-item" href="#">Kiwi🥝</a>
+                </div>
+            </li>
+            
+            </ul>
+            
+            <!-- 這是一組靠右側的選單 -->
+            <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link " href="https://www.instagram.com/purine103/ "><i class="fab fa-instagram"></i> Instagram<span class="sr-only">(current)</span></a>
+                
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="https://www.instagram.com/purine103/ ">🍇🍋🥝<span class="sr-only">(current)</span></a>
+                
+            </li>
+            
+
+            </ul>
+        </div>
+        </nav>
+ 
+    <div class="header">
+        <!-- 網頁內容 -->
+        <div class="container">
+            <!-- 標題 -->
+            <div class="jumbotron">
+                <center><h1 class="display-4"><strong>Podoh's House</strong></h1></center>
+                <center><p style="font-size: 26px;">Instagram @purine103</p></center>
+            </div>
+        
+        </div>
+        
+    
+    <div class="container">
+    
+    </div>
+
+    
+    <div class="container">
+      
+        <div class="card-deck">
+            <div class="card bg-light">
+                <div class="card-body text-center" style="background-color: #344354;border: 4px solid #d1ccc4">
+                    <p style="font-size: 26px; color: #d1ccc4; ">Cosplay</p><p></p>
+                    <a href="cosplay.html"><img src="./img/img4.jpg" width="300px" height="300"><p></a>
+                   
+                </div>
+            </div>
+            <div class="card bg-light">
+                <div class="card-body text-center" style="background-color: #4c5c55;border: 4px solid #d1ccc4">
+                    <p style="font-size: 26px; color: #d1ccc4; ">Award</p><p></p>
+                    
+                    <img src="./img/img5.jpg" width="300px" height="300"></a><p>
+                </div>
+            </div>
+            <div class="card bg-light">
+                <div class="card-body text-center" style="background-color: #344354;border: 4px solid #d1ccc4">
+                    <p style="font-size: 26px; color: #d1ccc4; ">Play</p><p></p>
+                    
+                    <img src="./img/img6.jpg" width="300px" height="300"></a><p>
+    
+                </div>
+            </div>
+            
+    </div>
+    <br>	</br>
+    <footer>
+        <p>© 2020  All rights reserved.</p>
+        
+      </footer>
+    </div>
+            
+        <!-- 引用 Bootstrap 的 JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
